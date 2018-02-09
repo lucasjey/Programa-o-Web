@@ -1,0 +1,23 @@
+#logo{
+    width: 250px;
+    height: auto;
+}
+
+.destaque {
+    margin-top: 10px;
+    margin-right: 50px;
+    color:#80ffaa;
+    font-size: 320%;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+body {
+    background-color: #d98cb3; 
+}
+
+/* flex box */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
