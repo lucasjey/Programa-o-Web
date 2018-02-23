@@ -11,13 +11,85 @@
     font-family: cursive;
     font-weight: bold;
 }
+/*menu-Horizontal*/
+.menu-horizontal ul{
+    list-style: none;
+    display: flex;
+}
 
-body {
+.menu-horizontal li {
+    margin: 0 5px 0 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+.menu-horizontal a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;  
+}
+
+.menu-horizontal a:hover{
+    background-color: rgb(224, 7, 80);
+    padding: 10px;
+}
+
+/*Color*/
+.menu {
     background-color: #d98cb3; 
 }
 
+.bg-cinza-claro{
+    background: #f0f0f0
+}
+
+/*conteudo*/
+.conteudo-fullscreen{
+    min-height: 400px;
+}
+
+.main2 {
+    margin: 0 30px 0 30px;
+}
+
+
+/*menu-Vertical*/
+.menu-vertical{
+    width: 160px;
+}
+.menu-vertical ul{
+    list-style: none;
+
+    margin-top: 0px;
+    padding: 0; 
+}
+
+.menu-vertical li {
+    margin: 40px 90px 50px 30px;
+    padding: 5px 10px 5px 10px;
+}
+
+.menu-vertical a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.menu-vertical a:hover{
+    background-color: rgb(107, 107, 107);
+    padding: 10px;
+}
 /* flex box */
 .container {
     display: flex;
     justify-content: space-between;
 }
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+table.bordasimples {border-collapse: collapse;}
+
+table.bordasimples tr td {border:1px solid black;}
